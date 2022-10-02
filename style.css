@@ -1,0 +1,57 @@
+body{
+    background-image: url("./wall2.jpg");
+    background-size: cover;
+}
+#calcul{
+    margin: auto;
+    width: 500px;
+    
+}
+button:active{
+    background-color: rgb(179, 58, 14);
+}
+#numbers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#signes>button{
+    display: block;
+}
+#signes{
+    position: relative;
+    float: right;
+  
+}
+button{
+    width: 100px;
+    height: 90px;
+    font-size: 1.5em;
+    font-weight: 900;
+    box-shadow: 10px 10px 10px gray;
+    background-color: rgba(255, 68, 0, 0.897);
+    border-radius: 10px;
+}
+.screen{
+    display: flex;
+    width: 460px;
+    height: 145px;
+    font-size: 2.5em;
+    font-weight: 900;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px gray;
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 10px;
+    
+}
+.signe{
+    background-color:#2C3E50 ;
+    color: white;
+}
+#clear{
+    background-color: rgb(194, 5, 5);
+    color: wheat;
+}
